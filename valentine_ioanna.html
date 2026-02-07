@@ -144,6 +144,100 @@
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-20px); }
         }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 40px 20px;
+                width: 95%;
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 2em;
+                margin-bottom: 30px;
+            }
+
+            .emoji {
+                font-size: 3em;
+                margin-bottom: 20px;
+            }
+
+            .image-container {
+                margin-bottom: 20px;
+            }
+
+            .image-container img {
+                max-height: 200px;
+                border-radius: 10px;
+            }
+
+            .buttons {
+                gap: 15px;
+                margin-top: 30px;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            button {
+                padding: 12px 25px;
+                font-size: 1.1em;
+                width: 100%;
+                max-width: 250px;
+            }
+
+            .celebration h1 {
+                font-size: 3em;
+            }
+
+            .celebration .emoji {
+                font-size: 4em;
+            }
+
+            .celebration p {
+                font-size: 1.2em;
+            }
+
+            .heart {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 15px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+                margin-bottom: 20px;
+            }
+
+            .emoji {
+                font-size: 2.5em;
+            }
+
+            .image-container img {
+                max-height: 180px;
+            }
+
+            button {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+
+            .celebration h1 {
+                font-size: 2.5em;
+            }
+
+            .celebration .emoji {
+                font-size: 3.5em;
+            }
+        }
     </style>
 </head>
 <body>
